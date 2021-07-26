@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DermaController;
+use App\Http\Controllers\LokasiController;
+use App\Http\Controllers\KlinikController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +26,11 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+Route::resource('/dermas',DermaController::class);
+
+Route::resource('/lokasis',LokasiController::class);
+
+Route::resource('/kliniks',KlinikController::class);
+
+

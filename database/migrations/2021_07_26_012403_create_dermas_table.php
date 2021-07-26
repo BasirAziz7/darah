@@ -15,6 +15,9 @@ class CreateDermasTable extends Migration
     {
         Schema::create('dermas', function (Blueprint $table) {
             $table->id();
+            $table->string('tarikh');
+            $table->string('isipadu');
+            $table->string('jenis');
             $table->timestamps();
         });
     }

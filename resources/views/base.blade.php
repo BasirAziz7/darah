@@ -23,7 +23,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
   <title>
-    Soft UI Dashboard PRO by Creative Tim
+    DERMA DARAH
   </title>
   <!-- Extra details for Live View on GitHub Pages -->
   <!-- Canonical SEO -->
@@ -131,7 +131,7 @@
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href="https://demos.creative-tim.com/soft-ui-dashboard-pro/pages/dashboards/default.html" target="_blank">
-        <img src="../../assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
+        <img src="http://3.bp.blogspot.com/-Odbc8R8dTX0/VjhxjhqNqPI/AAAAAAAAEpg/GymKZX9Pff4/s1600/logo_baru_kkm.jpg" class="navbar-brand-img h-100" alt="main_logo">
         <span class="ms-1 font-weight-bold">DARAH</span>
       </a>
     </div>
@@ -139,7 +139,7 @@
     <div class="collapse navbar-collapse  w-auto h-auto max-height-vh-100 h-100" id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a data-bs-toggle="collapse" href="#dashboardsExamples" class="nav-link active" aria-controls="dashboardsExamples" role="button" aria-expanded="false">
+          <a href="{{ url('/dashboard') }}" class="nav-link active" aria-controls="dashboardsExamples" role="button" aria-expanded="false">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>shop </title>
@@ -157,62 +157,12 @@
             </div>
             <span class="nav-link-text ms-1">Dashboards</span>
           </a>
-          <div class="collapse  show " id="dashboardsExamples">
-            <ul class="nav ms-4 ps-3">
-              <li class="nav-item active">
-                <a class="nav-link active" href="../../pages/dashboards/default.html">
-                  <span class="sidenav-mini-icon"> D </span>
-                  <span class="sidenav-normal"> Default </span>
-                </a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="../../pages/dashboards/automotive.html">
-                  <span class="sidenav-mini-icon"> A </span>
-                  <span class="sidenav-normal"> Automotive </span>
-                </a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="../../pages/dashboards/smart-home.html">
-                  <span class="sidenav-mini-icon"> S </span>
-                  <span class="sidenav-normal"> Smart Home </span>
-                </a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#vrExamples">
-                  <span class="sidenav-mini-icon"> V </span>
-                  <span class="sidenav-normal"> Virtual Reality <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="vrExamples">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/dashboards/vr/vr-default.html">
-                        <span class="sidenav-mini-icon text-xs"> V </span>
-                        <span class="sidenav-normal"> VR Default </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/dashboards/vr/vr-info.html">
-                        <span class="sidenav-mini-icon text-xs"> V </span>
-                        <span class="sidenav-normal"> VR Info </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="../../pages/dashboards/crm.html">
-                  <span class="sidenav-mini-icon"> C </span>
-                  <span class="sidenav-normal"> CRM </span>
-                </a>
-              </li>
-            </ul>
-          </div>
         </li>
         <li class="nav-item mt-3">
           <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">PAGES</h6>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="collapse" href="#pagesExamples" class="nav-link " aria-controls="pagesExamples" role="button" aria-expanded="false">
+          <a href="#pagesExamples" class="nav-link " aria-controls="pagesExamples" role="button" aria-expanded="false">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>office</title>
@@ -228,7 +178,7 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Pages</span>
+            <span class="nav-link-text ms-1">User Profile </span>
           </a>
           <div class="collapse " id="pagesExamples">
             <ul class="nav ms-4 ps-3">
@@ -384,7 +334,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link " aria-controls="applicationsExamples" role="button" aria-expanded="false">
+          <a  href="#applicationsExamples" class="nav-link " aria-controls="applicationsExamples" role="button" aria-expanded="false">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
               <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>settings</title>
@@ -401,7 +351,7 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Applications</span>
+            <span class="nav-link-text ms-1">Derma Darah</span>
           </a>
           <div class="collapse " id="applicationsExamples">
             <ul class="nav ms-4 ps-3">
@@ -439,7 +389,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="collapse" href="#ecommerceExamples" class="nav-link " aria-controls="ecommerceExamples" role="button" aria-expanded="false">
+          <a  href="#ecommerceExamples" class="nav-link " aria-controls="ecommerceExamples" role="button" aria-expanded="false">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
               <svg class="text-dark" width="12px" height="12px" viewBox="0 0 42 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>basket</title>
@@ -455,7 +405,7 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Ecommerce</span>
+            <span class="nav-link-text ms-1">Lokasi</span>
           </a>
           <div class="collapse " id="ecommerceExamples">
             <ul class="nav ms-4 ps-3">
@@ -531,7 +481,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a data-bs-toggle="collapse" href="#authExamples" class="nav-link " aria-controls="authExamples" role="button" aria-expanded="false">
+          <a href="#authExamples" class="nav-link " aria-controls="authExamples" role="button" aria-expanded="false">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>document</title>
@@ -547,273 +497,10 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Authentication</span>
+            <span class="nav-link-text ms-1">Klinik</span>
           </a>
-          <div >
-            <ul class="nav ms-4 ps-3">
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#signinExample">
-                  <span class="sidenav-mini-icon"> S </span>
-                  <span class="sidenav-normal"> Sign In <b class="caret"></b></span>
-                </a>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#signupExample">
-                  <span class="sidenav-mini-icon"> S </span>
-                  <span class="sidenav-normal"> Sign Up <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="signupExample">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/signup/basic.html">
-                        <span class="sidenav-mini-icon text-xs"> B </span>
-                        <span class="sidenav-normal"> Basic </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/signup/cover.html">
-                        <span class="sidenav-mini-icon text-xs"> C </span>
-                        <span class="sidenav-normal"> Cover </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/signup/illustration.html">
-                        <span class="sidenav-mini-icon text-xs"> I </span>
-                        <span class="sidenav-normal"> Illustration </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#resetExample">
-                  <span class="sidenav-mini-icon"> R </span>
-                  <span class="sidenav-normal"> Reset Password <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="resetExample">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/reset/basic.html">
-                        <span class="sidenav-mini-icon text-xs"> B </span>
-                        <span class="sidenav-normal"> Basic </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/reset/cover.html">
-                        <span class="sidenav-mini-icon text-xs"> C </span>
-                        <span class="sidenav-normal"> Cover </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/reset/illustration.html">
-                        <span class="sidenav-mini-icon text-xs"> I </span>
-                        <span class="sidenav-normal"> Illustration </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#lockExample">
-                  <span class="sidenav-mini-icon"> L </span>
-                  <span class="sidenav-normal"> Lock <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="lockExample">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/lock/basic.html">
-                        <span class="sidenav-mini-icon text-xs"> B </span>
-                        <span class="sidenav-normal"> Basic </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/lock/cover.html">
-                        <span class="sidenav-mini-icon text-xs"> C </span>
-                        <span class="sidenav-normal"> Cover </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/lock/illustration.html">
-                        <span class="sidenav-mini-icon text-xs"> I </span>
-                        <span class="sidenav-normal"> Illustration </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#StepExample">
-                  <span class="sidenav-mini-icon"> 2 </span>
-                  <span class="sidenav-normal"> 2-Step Verification <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="StepExample">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/verification/basic.html">
-                        <span class="sidenav-mini-icon text-xs"> B </span>
-                        <span class="sidenav-normal"> Basic </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/verification/cover.html">
-                        <span class="sidenav-mini-icon text-xs"> C </span>
-                        <span class="sidenav-normal"> Cover </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/verification/illustration.html">
-                        <span class="sidenav-mini-icon text-xs"> I </span>
-                        <span class="sidenav-normal"> Illustration </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#errorExample">
-                  <span class="sidenav-mini-icon"> E </span>
-                  <span class="sidenav-normal"> Error <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="errorExample">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/error/404.html">
-                        <span class="sidenav-mini-icon text-xs"> E </span>
-                        <span class="sidenav-normal"> Error 404 </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="../../pages/authentication/error/500.html">
-                        <span class="sidenav-mini-icon text-xs"> E </span>
-                        <span class="sidenav-normal"> Error 500 </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
         </li>
-        <li class="nav-item">
-          <hr class="horizontal dark" />
-          <h6 class="ps-4  ms-2 text-uppercase text-xs font-weight-bolder opacity-6">DOCS</h6>
-        </li>
-        <li class="nav-item">
-          <a data-bs-toggle="collapse" href="#basicExamples" class="nav-link " aria-controls="basicExamples" role="button" aria-expanded="false">
-            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
-              <svg width="12px" height="20px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>spaceship</title>
-                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                    <g transform="translate(1716.000000, 291.000000)">
-                      <g transform="translate(4.000000, 301.000000)">
-                        <path class="color-background" d="M39.3,0.706666667 C38.9660984,0.370464027 38.5048767,0.192278529 38.0316667,0.216666667 C14.6516667,1.43666667 6.015,22.2633333 5.93166667,22.4733333 C5.68236407,23.0926189 5.82664679,23.8009159 6.29833333,24.2733333 L15.7266667,33.7016667 C16.2013871,34.1756798 16.9140329,34.3188658 17.535,34.065 C17.7433333,33.98 38.4583333,25.2466667 39.7816667,1.97666667 C39.8087196,1.50414529 39.6335979,1.04240574 39.3,0.706666667 Z M25.69,19.0233333 C24.7367525,19.9768687 23.3029475,20.2622391 22.0572426,19.7463614 C20.8115377,19.2304837 19.9992882,18.0149658 19.9992882,16.6666667 C19.9992882,15.3183676 20.8115377,14.1028496 22.0572426,13.5869719 C23.3029475,13.0710943 24.7367525,13.3564646 25.69,14.31 C26.9912731,15.6116662 26.9912731,17.7216672 25.69,19.0233333 L25.69,19.0233333 Z"></path>
-                        <path class="color-background" d="M1.855,31.4066667 C3.05106558,30.2024182 4.79973884,29.7296005 6.43969145,30.1670277 C8.07964407,30.6044549 9.36054508,31.8853559 9.7979723,33.5253085 C10.2353995,35.1652612 9.76258177,36.9139344 8.55833333,38.11 C6.70666667,39.9616667 0,40 0,40 C0,40 0,33.2566667 1.855,31.4066667 Z"></path>
-                        <path class="color-background" d="M17.2616667,3.90166667 C12.4943643,3.07192755 7.62174065,4.61673894 4.20333333,8.04166667 C3.31200265,8.94126033 2.53706177,9.94913142 1.89666667,11.0416667 C1.5109569,11.6966059 1.61721591,12.5295394 2.155,13.0666667 L5.47,16.3833333 C8.55036617,11.4946947 12.5559074,7.25476565 17.2616667,3.90166667 L17.2616667,3.90166667 Z" opacity="0.598539807"></path>
-                        <path class="color-background" d="M36.0983333,22.7383333 C36.9280725,27.5056357 35.3832611,32.3782594 31.9583333,35.7966667 C31.0587397,36.6879974 30.0508686,37.4629382 28.9583333,38.1033333 C28.3033941,38.4890431 27.4704606,38.3827841 26.9333333,37.845 L23.6166667,34.53 C28.5053053,31.4496338 32.7452344,27.4440926 36.0983333,22.7383333 L36.0983333,22.7383333 Z" opacity="0.598539807"></path>
-                      </g>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <span class="nav-link-text ms-1">Basic</span>
-          </a>
-          <div class="collapse " id="basicExamples">
-            <ul class="nav ms-4 ps-3">
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#gettingStartedExample">
-                  <span class="sidenav-mini-icon"> G </span>
-                  <span class="sidenav-normal"> Getting Started <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="gettingStartedExample">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/quick-start/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> Q </span>
-                        <span class="sidenav-normal"> Quick Start </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> L </span>
-                        <span class="sidenav-normal"> License </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> C </span>
-                        <span class="sidenav-normal"> Contents </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/build-tools/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> B </span>
-                        <span class="sidenav-normal"> Build Tools </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " data-bs-toggle="collapse" aria-expanded="false" href="#foundationExample">
-                  <span class="sidenav-mini-icon"> F </span>
-                  <span class="sidenav-normal"> Foundation <b class="caret"></b></span>
-                </a>
-                <div class="collapse " id="foundationExample">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/colors/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> C </span>
-                        <span class="sidenav-normal"> Colors </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/grid/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> G </span>
-                        <span class="sidenav-normal"> Grid </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/typography/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> T </span>
-                        <span class="sidenav-normal"> Typography </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://www.creative-tim.com/learning-lab/bootstrap/icons/soft-ui-dashboard" target="_blank">
-                        <span class="sidenav-mini-icon text-xs"> I </span>
-                        <span class="sidenav-normal"> Icons </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a data-bs-toggle="collapse" href="#componentsExamples" class="nav-link " aria-controls="componentsExamples" role="button" aria-expanded="false">
-            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
-              <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>customer-support</title>
-                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                    <g transform="translate(1716.000000, 291.000000)">
-                      <g transform="translate(1.000000, 0.000000)">
-                        <path class="color-background" d="M45,0 L26,0 C25.447,0 25,0.447 25,1 L25,20 C25,20.379 25.214,20.725 25.553,20.895 C25.694,20.965 25.848,21 26,21 C26.212,21 26.424,20.933 26.6,20.8 L34.333,15 L45,15 C45.553,15 46,14.553 46,14 L46,1 C46,0.447 45.553,0 45,0 Z" opacity="0.59858631"></path>
-                        <path class="color-foreground" d="M22.883,32.86 C20.761,32.012 17.324,31 13,31 C8.676,31 5.239,32.012 3.116,32.86 C1.224,33.619 0,35.438 0,37.494 L0,41 C0,41.553 0.447,42 1,42 L25,42 C25.553,42 26,41.553 26,41 L26,37.494 C26,35.438 24.776,33.619 22.883,32.86 Z"></path>
-                        <path class="color-foreground" d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z"></path>
-                      </g>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <span class="nav-link-text ms-1">Components</span>
-          </a>
+        
           <div class="collapse " id="componentsExamples">
             <ul class="nav ms-4 ps-3">
               <li class="nav-item ">
@@ -921,26 +608,7 @@
             </ul>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/creativetimofficial/ct-soft-ui-dashboard-pro/blob/main/CHANGELOG.md" target="_blank">
-            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center  me-2 d-flex align-items-center justify-content-center">
-              <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>credit-card</title>
-                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                    <g transform="translate(1716.000000, 291.000000)">
-                      <g transform="translate(453.000000, 454.000000)">
-                        <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
-                        <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
-                      </g>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <span class="nav-link-text ms-1">Changelog</span>
-          </a>
-        </li>
+  </br></br></br></br></br></br>
       </ul>
     </div>
     <div class="sidenav-footer mx-3 mt-3 pt-3">
@@ -982,10 +650,10 @@
                 </svg>
               </a>
             </li>
-            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Default</li>
+            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Dashboard</a></li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Home</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">Default</h6>
+          <h6 class="font-weight-bolder mb-0">Home</h6>
         </nav>
         <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
           <a href="javascript:;" class="nav-link text-body p-0">
@@ -1091,6 +759,7 @@
       </div>
     </nav>
     <!-- End Navbar -->
+    
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-lg-7 position-relative z-index-2">
@@ -1099,7 +768,7 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="d-flex flex-column h-100">
-                    <h2 class="font-weight-bolder mb-0">General Statistics</h2>
+                    <h2 class="font-weight-bolder mb-0">Statistik Umum </h2>
                   </div>
                 </div>
               </div>
@@ -1112,7 +781,7 @@
                   <div class="row">
                     <div class="col-8">
                       <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Money</p>
+                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Penderma Hari Ini </p>
                         <h5 class="font-weight-bolder mb-0">
                           $53,000
                           <span class="text-success text-sm font-weight-bolder">+55%</span>
@@ -1132,7 +801,7 @@
                   <div class="row">
                     <div class="col-8">
                       <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Users</p>
+                        <p class="text-sm mb-0 text-capitalize font-weight-bold">User Hari Ini</p>
                         <h5 class="font-weight-bolder mb-0">
                           2,300
                           <span class="text-success text-sm font-weight-bolder">+3%</span>
@@ -1154,7 +823,7 @@
                   <div class="row">
                     <div class="col-8">
                       <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">New Clients</p>
+                        <p class="text-sm mb-0 text-capitalize font-weight-bold">User Baharu</p>
                         <h5 class="font-weight-bolder mb-0">
                           +3,462
                           <span class="text-danger text-sm font-weight-bolder">-2%</span>
@@ -1174,7 +843,7 @@
                   <div class="row">
                     <div class="col-8">
                       <div class="numbers">
-                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Sales</p>
+                        <p class="text-sm mb-0 text-capitalize font-weight-bold">Jumlah pendaftar</p>
                         <h5 class="font-weight-bolder mb-0">
                           $103,430
                           <span class="text-success text-sm font-weight-bolder">+5%</span>
@@ -1196,7 +865,7 @@
               <div class="card ">
                 <div class="card-header pb-0 p-3">
                   <div class="d-flex justify-content-between">
-                    <h6 class="mb-2">Sales by Country</h6>
+                    <h6 class="mb-2">Lokasi Mengikut Negeri</h6>
                   </div>
                 </div>
                 <div class="table-responsive">
@@ -1209,26 +878,26 @@
                               <img src="../../assets/img/icons/flags/US.png" alt="Country flag">
                             </div>
                             <div class="ms-4">
-                              <p class="text-xs font-weight-bold mb-0">Country:</p>
-                              <h6 class="text-sm mb-0">United States</h6>
+                              <p class="text-xs font-weight-bold mb-0">Negeri:</p>
+                              <h6 class="text-sm mb-0">Perak</h6>
                             </div>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
+                            <p class="text-xs font-weight-bold mb-0">Pendaftar:</p>
                             <h6 class="text-sm mb-0">2500</h6>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Value:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penderma:</p>
                             <h6 class="text-sm mb-0">$230,900</h6>
                           </div>
                         </td>
                         <td class="align-middle text-sm">
                           <div class="col text-center">
-                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penerima:</p>
                             <h6 class="text-sm mb-0">29.9%</h6>
                           </div>
                         </td>
@@ -1240,26 +909,26 @@
                               <img src="../../assets/img/icons/flags/DE.png" alt="Country flag">
                             </div>
                             <div class="ms-4">
-                              <p class="text-xs font-weight-bold mb-0">Country:</p>
+                              <p class="text-xs font-weight-bold mb-0">Negeri:</p>
                               <h6 class="text-sm mb-0">Germany</h6>
                             </div>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
+                            <p class="text-xs font-weight-bold mb-0">Pendaftar:</p>
                             <h6 class="text-sm mb-0">3.900</h6>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Value:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penderma:</p>
                             <h6 class="text-sm mb-0">$440,000</h6>
                           </div>
                         </td>
                         <td class="align-middle text-sm">
                           <div class="col text-center">
-                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penerima:</p>
                             <h6 class="text-sm mb-0">40.22%</h6>
                           </div>
                         </td>
@@ -1271,26 +940,26 @@
                               <img src="../../assets/img/icons/flags/GB.png" alt="Country flag">
                             </div>
                             <div class="ms-4">
-                              <p class="text-xs font-weight-bold mb-0">Country:</p>
+                              <p class="text-xs font-weight-bold mb-0">Negeri:</p>
                               <h6 class="text-sm mb-0">Great Britain</h6>
                             </div>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
+                            <p class="text-xs font-weight-bold mb-0">Pendaftar:</p>
                             <h6 class="text-sm mb-0">1.400</h6>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Value:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penderma:</p>
                             <h6 class="text-sm mb-0">$190,700</h6>
                           </div>
                         </td>
                         <td class="align-middle text-sm">
                           <div class="col text-center">
-                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penerima:</p>
                             <h6 class="text-sm mb-0">23.44%</h6>
                           </div>
                         </td>
@@ -1302,26 +971,26 @@
                               <img src="../../assets/img/icons/flags/BR.png" alt="Country flag">
                             </div>
                             <div class="ms-4">
-                              <p class="text-xs font-weight-bold mb-0">Country:</p>
+                              <p class="text-xs font-weight-bold mb-0">Negeri:</p>
                               <h6 class="text-sm mb-0">Brasil</h6>
                             </div>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
+                            <p class="text-xs font-weight-bold mb-0">Pendaftar:</p>
                             <h6 class="text-sm mb-0">562</h6>
                           </div>
                         </td>
                         <td>
                           <div class="text-center">
-                            <p class="text-xs font-weight-bold mb-0">Value:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penderma:</p>
                             <h6 class="text-sm mb-0">$143,960</h6>
                           </div>
                         </td>
                         <td class="align-middle text-sm">
                           <div class="col text-center">
-                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                            <p class="text-xs font-weight-bold mb-0">Penerima:</p>
                             <h6 class="text-sm mb-0">32.14%</h6>
                           </div>
                         </td>
@@ -1343,8 +1012,8 @@
                   <canvas id="chart-bars" class="chart-canvas" height="170"></canvas>
                 </div>
               </div>
-              <h6 class="ms-2 mt-4 mb-0"> Active Users </h6>
-              <p class="text-sm ms-2"> (<span class="font-weight-bolder">+23%</span>) than last week </p>
+              <h6 class="ms-2 mt-4 mb-0"> User Active </h6>
+              <p class="text-sm ms-2"> (<span class="font-weight-bolder">+23%</span>) Lebih dari Minggu Lepas</p>
               <div class="container border-radius-lg">
                 <div class="row">
                   <div class="col-3 py-3 ps-0">
@@ -1366,7 +1035,7 @@
                       </div>
                       <p class="text-xs mt-1 mb-0 font-weight-bold">Users</p>
                     </div>
-                    <h4 class="font-weight-bolder">36K</h4>
+                    <h4 class="font-weight-bolder">11M</h4>
                     <div class="progress w-75">
                       <div class="progress-bar bg-dark w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -1390,9 +1059,9 @@
                           </g>
                         </svg>
                       </div>
-                      <p class="text-xs mt-1 mb-0 font-weight-bold">Clicks</p>
+                      <p class="text-xs mt-1 mb-0 font-weight-bold">Penderma</p>
                     </div>
-                    <h4 class="font-weight-bolder">2m</h4>
+                    <h4 class="font-weight-bolder">200K</h4>
                     <div class="progress w-75">
                       <div class="progress-bar bg-dark w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -1414,9 +1083,9 @@
                           </g>
                         </svg>
                       </div>
-                      <p class="text-xs mt-1 mb-0 font-weight-bold">Sales</p>
+                      <p class="text-xs mt-1 mb-0 font-weight-bold">Penerima</p>
                     </div>
-                    <h4 class="font-weight-bolder">435$</h4>
+                    <h4 class="font-weight-bolder">43K</h4>
                     <div class="progress w-75">
                       <div class="progress-bar bg-dark w-30" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -1439,7 +1108,7 @@
                           </g>
                         </svg>
                       </div>
-                      <p class="text-xs mt-1 mb-0 font-weight-bold">Items</p>
+                      <p class="text-xs mt-1 mb-0 font-weight-bold">Lokasi</p>
                     </div>
                     <h4 class="font-weight-bolder">43</h4>
                     <div class="progress w-75">
@@ -1454,7 +1123,7 @@
         <div class="col-lg-7">
           <div class="card z-index-2">
             <div class="card-header pb-0">
-              <h6>Sales overview</h6>
+              <h6>Jumlah Penderma dan Penerima</h6>
               <p class="text-sm">
                 <i class="fa fa-arrow-up text-success"></i>
                 <span class="font-weight-bold">4% more</span> in 2021
@@ -1466,8 +1135,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> @yield('content')
       </div>
+     
       <div class="row">
         <div class="col-12">
           <div id="globe" class="position-absolute end-0 top-10 mt-sm-3 mt-7 me-lg-7">
@@ -1484,14 +1154,14 @@
                   document.write(new Date().getFullYear())
                 </script>,
                 made with <i class="fa fa-heart"></i> by
-                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
+                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Basir Aziz</a>
                 for a better web.
               </div>
             </div>
             <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
+                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">BasirAziz</a>
                 </li>
                 <li class="nav-item">
                   <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
@@ -1510,8 +1180,6 @@
     </div>
   </main>
   <div class="fixed-plugin">
-    <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
-      <i class="fa fa-cog py-2"> </i>
     </a>
     <div class="card shadow-lg blur">
       <div class="card-header pb-0 pt-3  bg-transparent ">

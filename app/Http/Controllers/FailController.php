@@ -33,9 +33,22 @@ class FailController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $req)
     {
-        //
+        $fileModel = new Fail;
+
+        if($req->file()) {
+            $fileName = time().'_'.$req->file->getClientOriginalName();
+            $filePath = $req->file('file')->storeAs('uploads', $fileName, 'public');
+
+            $fileModel->name = time().'_'.$req->file->getClientOriginalName();
+            $fileModel->file_path = '/moe/' . $filePath;
+            $fileModel->save();
+
+            return back()
+            ->with('success','File has been uploaded.')
+            ->with('file', $fileName);
+        }
     }
 
     /**

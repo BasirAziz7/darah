@@ -1,3 +1,5 @@
+
+
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -17,6 +19,13 @@
                 <x-label for="name" :value="__('Name')" />
 
                 <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+            </div>
+
+            <!-- Name -->
+            <div>
+                <x-label for="jenis_darah" :value="__('Jenis Darah')" />
+
+                <x-input id="jenis_darah" class="block mt-1 w-full" type="text" name="jenis_darah" :value="old('jenis_darah')" required autofocus />
             </div>
 
             <!-- Email Address -->
@@ -57,3 +66,4 @@
         </form>
     </x-auth-card>
 </x-guest-layout>
+

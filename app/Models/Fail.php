@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Fail extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'name',
+        'file_path'
+    ];
 }

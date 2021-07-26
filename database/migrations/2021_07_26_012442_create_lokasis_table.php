@@ -15,6 +15,11 @@ class CreateLokasisTable extends Migration
     {
         Schema::create('lokasis', function (Blueprint $table) {
             $table->id();
+            $table->string('negeri');
+            $table->string('daerah');
+            $table->string('bandar');
+            $table->string('postal_code');
+            $table->string('alamat_penuh');
             $table->timestamps();
         });
     }

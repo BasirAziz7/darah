@@ -15,6 +15,10 @@ class CreateKliniksTable extends Migration
     {
         Schema::create('kliniks', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->foreignid('user_kakitangan');
+            $table->foreignid('user_penerima');
+            $table->foreignid('derma_maklumat');
             $table->timestamps();
         });
     }

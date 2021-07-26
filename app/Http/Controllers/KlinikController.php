@@ -14,7 +14,10 @@ class KlinikController extends Controller
      */
     public function index()
     {
-        //
+        $kliniks = Klinik::all();
+        return view('klinik.index',[
+            'kliniks'=> $kliniks
+        ]);
     }
 
     /**
@@ -24,7 +27,7 @@ class KlinikController extends Controller
      */
     public function create()
     {
-        //
+        return view('klinik.create');
     }
 
     /**
@@ -35,7 +38,21 @@ class KlinikController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+           
+            'nama'  => 'required',
+            'user_kakitangan'=> 'required',
+            'user_penerima'=> 'required', 
+            'derma_maklumat'=> 'required',
+        ]);
+ 
+        $klinik= new Klinik;
+        $klinik->nama= $request->nama;
+        $klinik->user_kakitangan= $request->user_kakitangan;
+        $klinik->user_penerima= $request->user_penerima;
+        $klinik->derma_maklumat= $request->derma_maklumat;
+        $klinik->save(); 
+        return redirect('/kliniks');
     }
 
     /**
@@ -46,7 +63,9 @@ class KlinikController extends Controller
      */
     public function show(Klinik $klinik)
     {
-        //
+        return view('klinik.show', [
+            'klinik'=>$klinik
+        ]);
     }
 
     /**
@@ -57,7 +76,7 @@ class KlinikController extends Controller
      */
     public function edit(Klinik $klinik)
     {
-        //
+        return view('klinik.edit');
     }
 
     /**
@@ -69,7 +88,11 @@ class KlinikController extends Controller
      */
     public function update(Request $request, Klinik $klinik)
     {
-        //
+        $klinik->nama= $request->nama;
+        $klinik->user_kakitangan= $request->user_kakitangan;
+        $klinik->user_penerima= $request->user_penerima;
+        $klinik->derma_maklumat= $request->derma_maklumat;
+        $klinik->save(); 
     }
 
     /**

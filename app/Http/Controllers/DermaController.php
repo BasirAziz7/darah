@@ -14,7 +14,10 @@ class DermaController extends Controller
      */
     public function index()
     {
-        //
+        $dermas = Derma::all();
+        return view('derma.index',[
+            'dermas'=> $dermas
+        ]);
     }
 
     /**
@@ -24,7 +27,7 @@ class DermaController extends Controller
      */
     public function create()
     {
-        //
+        return view('derma.create');
     }
 
     /**
@@ -35,7 +38,21 @@ class DermaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+           
+            'id'  => 'required',
+            'tarikh'=> 'required',
+            'isipadu'=> 'required', 
+            'jenis'=> 'required',
+        ]);
+ 
+        $derma= new Derma;
+        $derma->id= $request->id;
+        $derma->tarikh= $request->tarikh;
+        $derma->isipadu= $request->isipadu;
+        $derma->jenis= $request->jenis;
+        $derma->save(); 
+        return redirect('/dermas');
     }
 
     /**
@@ -46,7 +63,9 @@ class DermaController extends Controller
      */
     public function show(Derma $derma)
     {
-        //
+        return view('derma.show', [
+            'derma'=>$derma
+        ]);
     }
 
     /**
@@ -57,7 +76,7 @@ class DermaController extends Controller
      */
     public function edit(Derma $derma)
     {
-        //
+        return view('derma.edit');
     }
 
     /**
@@ -69,7 +88,11 @@ class DermaController extends Controller
      */
     public function update(Request $request, Derma $derma)
     {
-        //
+        $derma->id= $request->id;
+        $derma->tarikh= $request->tarikh;
+        $derma->isipadu= $request->isipadu;
+        $derma->jenis= $request->jenis;
+        $derma->save(); 
     }
 
     /**
